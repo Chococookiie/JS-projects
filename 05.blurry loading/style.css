@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Ubantu');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubantu' , sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+    /* position: relative; */
+}
+.bg{
+    background-image:url('background_image.jpg') ;   
+    /* background: url('https://wallpapersflix.com/cool/wp-content/uploads/2021/04/Cool-Computer-Background-Ultra-HD-1536x864.jpg'); */
+    /* background: url('https://wallpapersflix.com/cool/wp-content/uploads/2021/04/Cool-Computer-Wallpaper-1920x1080-1-1536x864.jpg');  */
+     background-repeat:no-repeat ;
+    background-size: cover;
+    /* background: url('https://images.app.goo.gl/Jnd6hNhzR5VGMymA6'); */
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
